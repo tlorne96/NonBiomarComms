@@ -1,0 +1,40 @@
+cmake_minimum_required(VERSION 3.20)
+
+project(ChatClient)
+
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+
+find_package(Qt6 REQUIRED COMPONENTS Widgets Network)
+
+
+qt_standard_project_setup()
+
+
+qt_add_executable(ChatClient
+
+    src/main.cpp
+    src/ConnectDialog.cpp
+    src/Client.cpp
+    src/Client.cpp
+    src/MainWindow.cpp
+
+    include/ConnectDialog.h
+    include/Client.h
+    include/MainWindow.h
+)
+
+
+target_link_libraries(ChatClient
+    PRIVATE
+    Qt6::Widgets
+    Qt6::Network
+)
+
+
+target_include_directories(ChatClient
+    PRIVATE
+    include
+)

@@ -1,0 +1,5 @@
+/home/moth/ChatAppTim/Client/build/CMakeFiles/ChatClient.dir
+/home/moth/ChatAppTim/Client/build/CMakeFiles/edit_cache.dir
+/home/moth/ChatAppTim/Client/build/CMakeFiles/rebuild_cache.dir
+/home/moth/ChatAppTim/Client/build/CMakeFiles/ChatClient_autogen_timestamp_deps.dir
+/home/moth/ChatAppTim/Client/build/CMakeFiles/ChatClient_autogen.dir

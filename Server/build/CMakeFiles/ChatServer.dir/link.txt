@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/ChatServer.dir/link.d CMakeFiles/ChatServer.dir/src/main.cpp.o CMakeFiles/ChatServer.dir/src/Server.cpp.o -o ChatServer

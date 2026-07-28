@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/moth/ChatAppTim/Client/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
